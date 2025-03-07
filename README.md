@@ -1,16 +1,33 @@
-# interview
+## Site Material Tracker
 
-A new Flutter project.
+Site Material Tracker is a Flutter application designed to help track construction site materials. Users can add, edit, delete, and view materials received at a site, and generate PDF reports for documentation
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+Add Material: Record material name, quantity, supplier, and delivery date/time.
 
-A few resources to get you started if this is your first Flutter project:
+Edit Material: Modify existing material details.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Delete Material: Remove materials from the database.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+View Materials: Display a list of all recorded materials.
+
+Generate PDF Report: Export material details to a PDF file.
+
+Share PDF Report: Share the generated report via different apps.
+
+Persistent Storage: Uses SQLite for local storage.
+
+## Technologies & Dependencies
+
+Flutter (Dart)
+
+State Management: Provider
+
+Database: SQLite (sqflite)
+
+PDF Generation: pdf, path_provider
+
+Sharing: share_plus
+
+Date Formatting: intl

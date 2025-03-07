@@ -4,30 +4,30 @@ Site Material Tracker is a Flutter application designed to help track constructi
 
 ## Features
 
-Add Material: Record material name, quantity, supplier, and delivery date/time.
+**Add Material:** Record material name, quantity, supplier, and delivery date/time.
 
-Edit Material: Modify existing material details.
+**Edit Material:** Modify existing material details.
 
-Delete Material: Remove materials from the database.
+**Delete Material:** Remove materials from the database.
 
-View Materials: Display a list of all recorded materials.
+**View Materials:** Display a list of all recorded materials.
 
-Generate PDF Report: Export material details to a PDF file.
+**Generate PDF Report:** Export material details to a PDF file.
 
-Share PDF Report: Share the generated report via different apps.
+**Share PDF Report:** Share the generated report via different apps.
 
-Persistent Storage: Uses SQLite for local storage.
+**Persistent Storage:** Uses SQLite for local storage.
 
 ## Technologies & Dependencies
 
 Flutter (Dart)
 
-State Management: Provider
+**State Management:** Provider
 
-Database: SQLite (sqflite)
+**Database:** SQLite (sqflite)
 
-PDF Generation: pdf, path_provider
+**PDF Generation:** pdf, path_provider
 
-Sharing: share_plus
+**Sharing:** share_plus
 
-Date Formatting: intl
+**Date Formatting:** intl
